@@ -11,8 +11,8 @@ const replace = require('gulp-replace');
 
 // File paths
 const files = {
-    scssPath: 'scss/**/*.scss',
-    jsPath: 'js/**/*.js'
+    scssPath: 'assets/scss/**/*.scss',
+    jsPath: 'assets/js/**/*.js'
 }
 
 function scssTask(){

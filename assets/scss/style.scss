@@ -1,0 +1,39 @@
+@import 'contact-form';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Raleway", sans-serif;
+}
+section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    color: #5c768d;
+  }
+  h3 {
+    color: #666;
+    font-weight: normal;
+  }
+}
